@@ -19,12 +19,7 @@
             Pegawai
           </a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link {{ Request::is('dashboard/komik*') ? 'active' :'' }}" href="/dashboard/komik">
-            <span data-feather="book" class="align-text-bottom"></span>
-            Komik
-          </a>
-        </li> -->
+        
         <li class="nav-item">
           <a class="nav-link {{ Request::is('dashboard/posts*') ? 'active' :'' }}" href="/dashboard/posts">
             <span data-feather="type" class="align-text-bottom"></span>
