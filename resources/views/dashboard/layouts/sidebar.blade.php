@@ -26,12 +26,7 @@
             Posts
           </a>
         </li>     
-        <!-- <li class="nav-item">
-          <a class="nav-link {{ Request::is('dashboard/berita*') ? 'active' :'' }}" href="/dashboard/berita">
-            <span data-feather="paperclip" class="align-text-bottom"></span>
-            Berita
-          </a>
-        </li>      -->
+      
       </ul>  
 
       @can('admin')
